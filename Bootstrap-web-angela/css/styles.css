@@ -1,0 +1,313 @@
+html{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    text-align: center;
+}
+p{
+    color: gray;
+}
+
+#title{
+    padding: 40px;
+    background-color: #ff4c68;
+    height: 80vh;
+    
+}
+
+
+#title .row h1{
+ 
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color: white;
+}
+
+#title .navbar {
+    font-size: 1.5rem;
+    padding: 0 0 4.4rem;
+   
+}
+#title .navbar a.navbar-brand{
+    font-size: 2.9rem;
+    font-family: 'Redressed', cursive;
+    padding-left: 0;
+}
+.nav-item{
+    padding: 0 10px;
+}
+
+.download-button{
+    margin: 5% 2% 5% 0%;
+}
+
+.dog-img{
+    width: 60%;
+    transform: rotate(25deg);
+    margin-top: 7%;
+    position: absolute;
+    right: 15%;
+}
+
+
+/* feture-box */
+#features{
+    padding: 8% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+   
+}
+#features h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 700;
+    
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+     color: #ff4c68;
+}    
+
+/* testimonials section  */
+#testimonials{
+    height: 60vh;
+
+    background-color:#ef8172 ;
+}
+
+#testimonials h2{
+    color: #fff;
+    font-weight: 700;
+    font-size: 3.4rem;
+}
+#testimonials .testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* press */
+#press{
+    background-color:#ef8172 ;
+    text-align: center;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px; 
+}
+.carousel-item {
+    padding: 8% 15%;
+}
+
+/* Pricing section */
+#pricing {
+    padding: 100px;
+  }
+  
+  .price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .pricing-column {
+    padding: 3% 2%;
+  }
+
+
+/* cta */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5%;
+    /* margin-bottom: 2%; */
+}
+#cta h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color: white;  
+   
+}
+.footer-btn{
+    margin-top: 4%;
+}
+
+
+
+/* Footer */
+#footer{
+    text-align: center;
+}
+
+/* social-icons */
+#social-icon{
+    text-align: center  ;
+}
+.icons{
+    margin: 2% .6%;
+}
+.icons-red{
+    color: crimson;
+}
+.icons-black{
+    color: rgb(86, 187, 221);
+}
+
+/* Media quari */
+@media (max-width: 992px){
+    
+    .dog-img{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+    #title .row h1{
+        font-size: 6rem;
+    }
+    #title .row .btn{
+        font-size: 2.8rem;
+    }
+    #title .navbar{
+        font-size: 3rem;
+    }
+
+    /* testimonials */
+
+    #testimonials{
+        height: 45vh;
+    }
+    #testimonials h2{
+        font-size: 4rem;
+        margin-bottom: 7%;
+        
+    }
+    #testimonials .testimonials-img{
+        width: 25%;
+        /* margin-bottom: 7%; */
+
+    }
+    #testimonials em{
+        font-size: 3rem;
+        /* margin-bottom: 7%; */
+
+    }
+
+    /* features */
+
+    #features h3{
+        font-size: 4rem;
+    }
+    #features p{
+        font-size: 3rem;
+        
+    }
+
+    #press img{
+        width: 25%;
+        margin: 70px 20px ; 
+    }
+
+    #pricing{
+        height: 90vh;
+        text-align: center;
+
+    }
+    #pricing h2{
+        font-size: 4rem;
+    }
+    #pricing-p{
+        font-size: 2rem;
+    }
+    #pricing p{
+        font-size: 2rem;
+    }
+
+    /* cta */
+    #cta .btn{
+        font-size: 2.5rem;
+    }
+
+    /* social-icon */
+    #social-icon .fab {
+        width: 10%;
+        font-size: 5rem;
+        margin-top: 8%;
+        margin-bottom: 4%;
+
+    }
+    #social-icon .fas {
+        width: 10%;
+        font-size: 5rem;
+    }
+
+    #footer {
+        margin-top: 3%;
+    }
+    #footer p{
+        font-size: 2.4rem;
+    }
+
+    
+   
+}
+
+@media (min-width: 768px){
+    #title {
+      height: 100vh;  
+    }
+    #testimonials{
+        height: 63vh;
+    }
+    #priceing {
+        height: 100vh;
+    }
+    #priceing  .pricing-column{
+        margin-bottom: 286px;
+    }
+       
+}
+
+
+/* @media (max-width: 1555px){
+    
+#pricing .column-price-1{
+    padding-left: 176px;
+}
+#pricing  .column-price-2{
+    padding-left: 93px;
+
+}
+} */
+
+/* @media only screen and(min-width:480px){
+    #title {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:768px){
+    #title .dog-img{
+        width: 100%;
+        height: auto;
+    }
+    #title{
+        height: 100vh;
+    }
+    #title .row h1{
+        color: rebeccapurple;
+    }
+} */
